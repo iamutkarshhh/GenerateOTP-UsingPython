@@ -2,7 +2,7 @@ import math,random
 import string
 
 def generateOTP():
-    digit = '123456789'
+    digit = '0123456789'
     OTP=''
     # Length OTP can be changed by Changing the value in range
     for i in range(4):
